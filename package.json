@@ -12,11 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^3.4.1",
     "express": "^4.17.1",
     "nodemon": "^1.19.4",
     "path": "^0.12.7",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "react-rtc-real": "^0.14.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
