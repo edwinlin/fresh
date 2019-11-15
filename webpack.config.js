@@ -6,8 +6,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: './main.js',
-    path: path.resolve(__dirname, './public/build'),
-    // publicPath: path.resolve(__dirname, '/build')
+    // point the output to folder holding the root index.html file
+    path: path.resolve(__dirname, './public')
   },
   module: {
     rules: [
@@ -20,6 +20,10 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: ['file-loader']
+      },
+      {
+        test: /\.[?s]css$/,
+        use: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
   }

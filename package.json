@@ -14,11 +14,13 @@
   "dependencies": {
     "core-js": "^3.4.1",
     "express": "^4.17.1",
+    "file-loader": "^4.2.0",
     "nodemon": "^1.19.4",
     "path": "^0.12.7",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-rtc-real": "^0.14.0"
+    "react-rtc-real": "^0.30.0",
+    "sass-loader": "^8.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
@@ -26,6 +28,8 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
